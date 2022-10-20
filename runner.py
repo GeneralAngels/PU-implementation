@@ -1,4 +1,1 @@
-from RioSender.RioSender import *
-
-
-rio_sender = RioSender()
+import Components.RioSender.RioSender

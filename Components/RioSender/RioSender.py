@@ -1,9 +1,9 @@
 from typing import *
 import socket
-from AbstractClasses.AbstractBasicThreadTask import AbstractBasicThreadTask
-from RioSender.modes_dictionary import modes
+from ..AbstractClasses.AbstractBasicThreadTask import AbstractBasicThreadTask
+from .modes_dictionary import modes
 import struct
-from RioSender.modes_dictionary import modes_dictionary
+from .modes_dictionary import modes_dictionary
 
 
 class RioSender:

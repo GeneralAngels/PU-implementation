@@ -1,7 +1,7 @@
 import struct
 from typing import *
-from AbstractClasses.AbstractBasicThreadTask import AbstractBasicThreadTask
-from RioReciever.RobotState import RobotState
+from ..AbstractClasses.AbstractBasicThreadTask import AbstractBasicThreadTask
+from .RobotState import RobotState
 import socket
 
 

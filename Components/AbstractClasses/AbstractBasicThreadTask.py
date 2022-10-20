@@ -1,8 +1,8 @@
 from typing import *
 from abc import ABC
 import time
-from AbstractClasses.AbstractThreadTask import AbstractThreadTask
-from AbstractClasses.AbstractTask import AbstractTask
+from .AbstractThreadTask import AbstractThreadTask
+from .AbstractTask import AbstractTask
 
 
 class AbstractBasicThreadTask(AbstractThreadTask, AbstractTask):

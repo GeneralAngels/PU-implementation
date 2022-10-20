@@ -10,4 +10,4 @@ class RobotState:
 
     @staticmethod
     def unpack(_recv) -> 'RobotState':
-        return struct.unpack(RobotState.FMT, _recv)
+        return RobotState(*struct.unpack(RobotState.FMT, _recv))

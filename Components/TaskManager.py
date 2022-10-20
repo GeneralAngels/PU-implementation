@@ -17,9 +17,3 @@ class TaskManager:
     def cancel_task(self, task: AbstractThreadTask) -> None:
         task._thread.terminate()
         self.tasks_list.remove(task)
-
-
-task_manager: TaskManager = TaskManager()
-task_manager.schedule(SimpleTask(1))
-task_manager.schedule(SimpleTask(2))
-time.sleep(10)

@@ -1,7 +1,7 @@
 from typing import *
 import threading
-from AbstractClasses.AbstractBasicThreadTask import SimpleTask
-from AbstractClasses.AbstractThreadTask import AbstractThreadTask
+from .AbstractClasses.AbstractBasicThreadTask import SimpleTask
+from .AbstractClasses.AbstractThreadTask import AbstractThreadTask
 import time
 
 

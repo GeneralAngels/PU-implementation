@@ -15,6 +15,7 @@ class RioSender:
         self.socket.bind((RioSender.HOST, RioSender.PORT))        
 
     def send_mode(self, mode: modes, *args) -> None:
+        self.socket.send(struct.pack("h", mode.value))
         self.socket.send(struct.pack(modes_dictionary[mode], *args))
 
     def send_volt_to_motor(self, id: int, volt: float) -> None: 
